@@ -135,3 +135,117 @@ display: block;
 	background-color: #2E64FE; 
 
 }
+
+/* seção ultimas peças */
+#last-pieces {
+	text-align: center;
+	padding: 100px 0;
+}
+
+.wrapper {
+	max-width: 1200px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#last-pieces h1 {
+	font-size: 36px;
+	margin-bottom: 50px;
+}
+
+#last-pieces ul {
+	padding: 0;
+	border: 1px solid #CCC;
+	border-radius: 10px;
+}
+
+#last-pieces ul li {
+	list-style: none;
+	text-align: left;
+	border-bottom: solid 1px #CCC;
+	height: 80px;
+	position: relative;
+}
+
+#last-pieces ul li:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+#last-pieces ul li:last-child {
+	border:none;
+}
+
+.clickarea {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.product {
+	display: inline-block;
+	width: 50%;
+	position: relative;
+	padding-left: 1%;
+}
+
+.product img{
+	width: 100px;
+	margin-top: 2.5px;
+	
+}
+
+.product-info {
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 10px;
+	text-align: left;
+	position: absolute;
+}
+
+.product-info h3 {
+	margin-bottom: 10px;
+}
+
+/* localidade */
+
+.locality {
+	color: #6d6d6d;
+	display: inline-block;
+	width: 25%;
+	position: absolute;
+	height: 100%;
+	line-height: 80px;
+}
+
+.locality i, .locality p {
+	display: inline-block;
+}
+
+.locality i {
+	margin-right: 5px;
+}
+
+/*preço*/
+.price {
+	display: inline-block;
+	width: 20%;
+	height: 100%;
+	position: absolute;
+	padding-top: 30px;
+	right: 1%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.price p{
+	display: inline-block;
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	border-radius: 5px;
+}
