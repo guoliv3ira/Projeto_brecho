@@ -164,7 +164,7 @@ display: block;
 	list-style: none;
 	text-align: left;
 	border-bottom: solid 1px #CCC;
-	height: 80px;
+	height: 150px;
 	position: relative;
 }
 
@@ -193,7 +193,7 @@ display: block;
 }
 
 .product img{
-	width: 100px;
+	width: 140px;
 	margin-top: 2.5px;
 	
 }
