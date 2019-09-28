@@ -407,7 +407,10 @@ footer li {
 .footer-box:nth-child(1){
 	text-align: center;
 }
-
+.footer-box:nth-child(1) img {
+	height: 60%;
+	width: 60%;
+}
 footer .wrapper:after {
 	clear: both;
 	content: "";
