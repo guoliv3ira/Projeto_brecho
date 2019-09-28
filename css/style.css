@@ -402,10 +402,12 @@ footer li {
 	width: 31%;
 	padding: 1%;
 	float: left;
+	border-left: 1px solid #666;
 }
 
 .footer-box:nth-child(1){
 	text-align: center;
+	border-left: none;
 }
 .footer-box:nth-child(1) img {
 	height: 60%;
