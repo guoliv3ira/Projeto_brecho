@@ -372,7 +372,7 @@ display: block;
 /* footer */
 
 footer {
-	background-color: #545454;
+	background-color: #666;
 	padding: 5em 0;
 	padding-bottom: 40px;
 	border-top: 5px solid #CCC;
@@ -402,7 +402,7 @@ footer li {
 	width: 31%;
 	padding: 1%;
 	float: left;
-	border-left: 1px solid #666;
+	border-left: 1px solid #D1D1D1;
 }
 
 .footer-box:nth-child(1){
@@ -428,7 +428,7 @@ footer .wrapper:after {
 }
 
 .company-footer h2, .company-footer p {
-	margin-bottom: 20px;
+	margin-bottom: 0;
 }
 
 .footer-list li {
@@ -455,6 +455,10 @@ footer .wrapper:after {
 .articles-footer a {
 	font-size: 18px;
 
+}
+
+.article-date {
+	font-weight: 300;
 }
 .footer-list.footer-article-list span {
 	display: block;
