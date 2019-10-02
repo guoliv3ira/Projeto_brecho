@@ -29,8 +29,6 @@ header{
 
 /*navbar*/
 nav{
-	position: fixed;
-	top: 0;
 	height: 100px;
 	width: 100%;
 	z-index: 1;
@@ -317,6 +315,73 @@ display: block;
 	color: #FFF;
 	text-shadow: 0.1em 0.1em 0.2em #333;
 
+}
+
+/*depoimentos */
+
+#testimony-container{
+	background: url('../img/banner7.jpg') no-repeat;
+	background-size: cover;
+	padding: 10em 0;
+}
+
+#testimony-container h2, #testimony-container p{
+	color: #FFF;
+	text-align: center;
+}
+#testimony-container h2{
+	font-size: 44px;
+	margin-bottom: 50px;
+}
+
+#testimony-container p{
+	font-size: 20px;
+	margin-bottom: 50px;
+
+}
+.testimony-box{
+	display: inline-block;
+	width: 24.5%;
+	text-align: center;
+}
+
+#testimony-container .testimony-box .testimony-msg{
+	background-color: #FFF;
+	color: #666;
+	border-radius: 10px;
+	padding: 20px;
+	width: 50%;
+	position: relative;
+	margin: 35px auto;
+	font-style: italic;
+	font-size: 14px;
+}
+
+.testimony-msg:after{
+	content: "";
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #fff;
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.testimony-box img{
+
+	border: 5px solid #CCC;
+	border-radius: 50%;
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+#testimony-container #testimony-name{
+	margin-top: 10px;
+	font-style: italic;
 }
 
 /* Status do brechó */
