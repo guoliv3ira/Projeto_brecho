@@ -437,14 +437,14 @@ display: block;
 /* footer */
 
 footer {
-	background-color: #666;
+	background-color: #FFF;
 	padding: 5em 0;
 	padding-bottom: 40px;
 	border-top: 5px solid #CCC;
 }
 
 footer h2, footer p, footer a, footer span {
-	color: #D1D1D1;
+	color: #666;
 }
 
 footer h2 {
@@ -490,6 +490,7 @@ footer .wrapper:after {
 
 .company-footer h2 {
 	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .company-footer h2, .company-footer p {
@@ -518,6 +519,7 @@ footer .wrapper:after {
 	width: 80%;
 }
 .articles-footer a {
+	margin-top: 20px;
 	font-size: 18px;
 
 }
